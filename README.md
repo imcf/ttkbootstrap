@@ -12,6 +12,17 @@ English | [日本語](README_ja.md) | [中文](README_zh.md)
 
 ttkbootstrap is a Python library that enhances tkinter by providing modern, flat-style themes inspired by Bootstrap. Easily create stylish GUI applications with built-in themes, pre-defined widget styles, and more.
 
+## 🚨 Fork for pixi-packaging 🚨
+
+This is a fork of the upstream [ttkbootstrap] repo that adds the required
+configuration for building a [pixi-package] of it, that can be used as a *true*
+dependency for other pixi-based packages like [omero-downloader]. The upstream
+repo only has a PyPI package that can't be used as a "conda-like" dependency.
+
+[ttkbootstrap]: https://github.com/israel-dryer/ttkbootstrap
+[pixi-package]: https://prefix.dev/tools/pixi
+[omero-downloader]: https://github.com/imcf/omero-downloader
+
 ## Documentation
 👀 Check out the [documentation](https://ttkbootstrap.readthedocs.io/en/latest/).
 
