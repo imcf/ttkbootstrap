@@ -66,6 +66,7 @@ preview = ["pixi-build"]
 
 [tool.pixi.package]
 name = "ttkbootstrap"
+version = "1.20.2.a0"
 
 [tool.pixi.package.build]
 backend = { name = "pixi-build-python", version = "==0.4.8" }
